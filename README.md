@@ -9,12 +9,19 @@
 
 ##  This will create a log file in the backend with all of the visitors information including their exact location.
 
+## Please read the instructions here:
+
+https://github.com/SEODEMON/GEO_LOCATOR/blob/master/INSTRUCTIONS.pdf
 
 
 ![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/Screenshot.jpg)
 
 
 
-# GEO_LOCATOR
+## Please read the instructions here:
 
-![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/Screenshot.jpg)
+https://github.com/SEODEMON/GEO_LOCATOR/blob/master/INSTRUCTIONS.pdf
+
+# GEO_LOCATOR - GEO FINDER
+
+![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/exreme.jpg)
