@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Locate Me - IP Logger - Location Finder - Get Current GPS Location - What is My IP - What is My Location - What is My IP Address - Get Latitude and Longitude - Trap IP Address - IP Tracker - Where am I? - What is my location?</title>
+<meta name="description" content="Locate me. Get your exact address location or current location on the map. Get current GPS location or Latitude and Longitude coordinates. IP Logger Location Finder or trap IP address.  What is my IP? What is my location? What is my IP address or current IP address location? IP Finder and geolocator. Where am I?, What is my location?"/>
+<meta property="og:title" content="Locate me - Geolocator and IP Current Location - Find My Location - GPS Location - IP Logger Location Finder Get Current GPS Location - What is My IP - What is My Location - What is My IP Address - Get Latitude and Longitude - Trap IP Address" />
+<meta property="og:description" content="Locate me! Map your location. Where am I? Get your exact address location or current location on the map. Get current GPS location or Latitude and Longitude coordinates. IP Logger Location Finder or trap IP address.  What is my IP? What is my location? What is my IP address or current IP address location? IP Finder and geolocator. Where am I? What is my location?"/>
+<meta property="og:site_name" content="Locate Me Geolocator and IP Get Current Location" />
+<meta name="keywords" content="Locate Me, IP Tracker, Track IP Address, Geolocator and IP Current Location, Find My Location, GPS Location, IP Logger, Location Finder,  Get Current GPS Location, What is My IP?, Find my Ip address, What is my location?, What is my IP address, Get Latitude and Longitude on map, Trap IP Address,GEO Locate me, Geolocator, IP Finder, Where am I?, What is my location?" />
+<link href="stylesheet/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showLocation);
+    } else { 
+        $('#location').html('Geolocation is not supported by this browser.');
+    }
+});
+
+function showLocation(position) {
+	var latitude = position.coords.latitude;
+	var longitude = position.coords.longitude;
+	$.ajax({
+		type:'POST',
+		url:'getLocation.php',
+		data:'latitude='+latitude+'&longitude='+longitude,
+		success:function(msg){
+            if(msg){
+               $("#location").html(msg);
+            }else{
+                $("#location").html('Not Available');
+            }
+		}
+	});
+}
+</script>
+
+</head>
+<body>
+<div id="location">
+
+
+</div>  
+</body>
+</html>
