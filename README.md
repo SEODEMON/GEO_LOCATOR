@@ -11,5 +11,10 @@
 
 
 
-![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/exreme.jpg)
+![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/Screenshot.jpg)
 
+
+
+# GEO_LOCATOR
+
+![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/Screenshot.jpg)
