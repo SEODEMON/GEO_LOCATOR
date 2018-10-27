@@ -1,5 +1,5 @@
 # GEO_LOCATOR 
-##This Does Not Currently Work on For Visitors From Mobile Devices It Would Seem
+## This Does Not Currently Work on For Visitors From Mobile Devices It Would Seem
 
 
 ![alt tag](https://github.com/SEODEMON/GEO_LOCATOR/blob/master/exreme.jpg)
